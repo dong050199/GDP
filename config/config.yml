@@ -1,0 +1,15 @@
+environment: dev
+mqttconf: 
+  MqttBrokerHost: "128.199.124.231"
+  MqttUserName: "automation"
+  MqttPassword: "ttsxtm2022"
+  MqttClientID: "adadad"
+  MqttPort: 1883
+  MqttTopicPub: "testMQTT"
+  MqttTopicSub: "testMQTT1"
+kafkaconf:
+  KafkaBootStrapServer: "localhost:9092"
+  KafkaGroupID: "group-x"
+  KafkaAutoSetReset: "earliest"
+  KafkaTopicSub: "gatewayrequest"
+  KafkaTopicPub: "gatewayreponse"

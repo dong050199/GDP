@@ -1,0 +1,5 @@
+version: "3"
+services:
+  appgdp:
+    build: .
+    network_mode: host
